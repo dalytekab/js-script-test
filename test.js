@@ -1,3 +1,4 @@
 function callFn() {
-  console.log('TEST')
+  console.log('TEST');
+  return true;
 }
