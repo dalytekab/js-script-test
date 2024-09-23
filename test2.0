@@ -1,0 +1,3 @@
+window.callFn = function() {
+  console.log('WIW');
+};
