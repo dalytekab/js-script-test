@@ -19,4 +19,5 @@ function callApi() {
   });
 
   console.log("API call initiated, not awaiting response");
+  return true;
 }
