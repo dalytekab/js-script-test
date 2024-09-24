@@ -1,5 +1,5 @@
-function callApi() {
-  var url = "https://webhook.site/10fc0e6a-32e8-45c8-89fa-ae7c2a5aa317";
+function callApi(codePromo) {
+  var url = "https://webhook.site/10fc0e6a-32e8-45c8-89fa-ae7c2a5aa317/" + codePromo;
 
   console.log("Before API call");
 
@@ -19,4 +19,5 @@ function callApi() {
   });
 
   console.log("API call initiated, not awaiting response");
+  return true
 }
